@@ -1,0 +1,20 @@
+# Nmap 7.97 scan initiated Mon Aug  4 12:48:30 2025 as: nmap -sT -oN results.txt -oX results.xml 192.168.31.0/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0036s latency).
+Not shown: 994 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for Mac.lan (192.168.31.208)
+Host is up (0.000026s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+
+# Nmap done at Mon Aug  4 12:50:24 2025 -- 256 IP addresses (2 hosts up) scanned in 114.56 seconds
